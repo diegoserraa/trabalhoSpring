@@ -1,0 +1,20 @@
+#Inserindo Equipamento
+POST http://localhost:8080/setor
+Content-Type: application/json
+Accept: application/json
+
+
+{
+  "id" :45,
+  "imagem_url" : "teste90",
+  "nome" : "monitor",
+  "descricao" : "esse e o melhor"
+
+
+}
+###
+
+GET http://localhost:8080/setor/1
+Accept: application/json
+
+###

@@ -1,0 +1,23 @@
+#Inserindo Equipamento
+POST http://localhost:8080/equipamento
+Content-Type: application/json
+Accept: application/json
+
+
+{
+  "id" : 4442,
+  "nome" : "teste90",
+  "descricao" : "250 GB",
+  "foto_url" : "Foto pendriver",
+  "data_cadastro" : "18/12/2020",
+  "data_ultima_manutencao" : "19/09/21"
+
+}
+###
+
+#busca por equipamento e categoria
+GET http://localhost:8080/equipamento/2
+Accept: application/json
+
+
+
